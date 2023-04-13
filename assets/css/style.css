@@ -10,9 +10,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", monospace;
   color: #0d1e2d;
 }
+
 
 a {
   color: #777;
@@ -30,7 +31,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: "Open Sauce Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section {
@@ -129,6 +130,12 @@ h6,
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+}
+
+.item .item-wrap>.work-info h5 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .item .item-wrap:hover {
